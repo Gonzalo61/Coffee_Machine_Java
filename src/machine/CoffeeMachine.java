@@ -23,7 +23,6 @@ class MyCoffeMachine {
     private int posibles;
     private int money;
     private String input;
-    // Aca va una variable con el estado bebe;
     private State state = State.READY;
 
     public MyCoffeMachine(int water, int milk, int beans, int posibles, int money){
